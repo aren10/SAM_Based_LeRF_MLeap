@@ -27,7 +27,7 @@ This thr value is for outputing the filtered saliency map
 ```
 thr = 0.8
 ```
-### Second set is at the beginning of the generate_clip2d_SAM_SortBboxBackground_Interpolation(flag, image, output_path): <br>
+### Second set is at the beginning of the generate_clip2d_SAM_SortBboxBackground_Interpolation(flag, image, output_path). You can use the default setting: <br>
 w1 is for interpolating two overlapped masks
 ```
 w1 = 0.99
@@ -44,7 +44,7 @@ blur is to blur the background by gaussian filter
 ```
 blur = (1,1,0)
 ```
-### Third set is in mask_generator = SamAutomaticMaskGenerator(sam) <br>
+### Third set is in mask_generator = SamAutomaticMaskGenerator(sam). You can use the default setting <br>
 Here you can follow the instructions in SAM official Github readme file, to fine-tune the parameters for SAM Model.
 We are using the default ones.
 
