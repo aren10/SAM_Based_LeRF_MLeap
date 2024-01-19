@@ -1,8 +1,10 @@
-## Conda Environment
-You can import my conda environment by running this
+## Conda Environment and download pre-trained model
+1. You can import my conda environment by running this
 ```
 conda env create -f environment.yml
 ```
+2. You can also donwload the SAM Model here: https://drive.google.com/file/d/18H6d2ASXbJIL8V2cCiuCLEr8eZTNCYtH/view?usp=sharing
+
 
 ## Fintune Hyper-parameter
 ### First set is under if __name__ == "__main__":<br>
