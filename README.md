@@ -3,7 +3,7 @@
 ```
 conda env create -f environment.yml
 ```
-2. You can also donwload the SAM Model here: https://drive.google.com/file/d/18H6d2ASXbJIL8V2cCiuCLEr8eZTNCYtH/view?usp=sharing
+2. You can also donwload the SAM Model here, and put under the root folder: https://drive.google.com/file/d/18H6d2ASXbJIL8V2cCiuCLEr8eZTNCYtH/view?usp=sharing
 
 
 ## Fintune Hyper-parameter
